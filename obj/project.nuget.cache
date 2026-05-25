@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "3FOkXRkLjMo=",
+  "dgSpecHash": "gSaEgZ+Z4bU=",
   "success": true,
-  "projectFilePath": "/build/myapp/myapp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/user/ipl-report/myapp.csproj",
+  "expectedPackageFiles": [
+    "/home/user/.nuget/packages/microsoft.entityframeworkcore/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.9.0.0-preview.3.24172.4.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.abstractions.9.0.0-preview.3.24172.4.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.analyzers.9.0.0-preview.3.24172.4.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.entityframeworkcore.inmemory/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.inmemory.9.0.0-preview.3.24172.4.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.0-preview.3.24172.9/microsoft.extensions.caching.abstractions.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.extensions.caching.memory/9.0.0-preview.3.24172.9/microsoft.extensions.caching.memory.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0-preview.3.24172.9/microsoft.extensions.dependencyinjection.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0-preview.3.24172.9/microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.extensions.logging/9.0.0-preview.3.24172.9/microsoft.extensions.logging.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0-preview.3.24172.9/microsoft.extensions.logging.abstractions.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.extensions.options/9.0.0-preview.3.24172.9/microsoft.extensions.options.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.extensions.primitives/9.0.0-preview.3.24172.9/microsoft.extensions.primitives.9.0.0-preview.3.24172.9.nupkg.sha512"
+  ],
   "logs": []
 }

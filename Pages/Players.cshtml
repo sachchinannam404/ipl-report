@@ -1,0 +1,23 @@
+
+@page
+@model myapp.Pages.PlayersModel
+
+<h1>Players</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Team</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var player in Model.Players)
+        {
+            <tr>
+                <td>@player.Name</td>
+                <td>@player.Team</td>
+            </tr>
+        }
+    </tbody>
+</table>
