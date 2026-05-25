@@ -19,6 +19,17 @@ This application provides a comprehensive overview of the Indian Premier League 
 - **Home Page Dashboard:** The home page provides a quick overview of the total number of players, teams, and coaches, with visually engaging cards and icons.
 - **Logo:** A custom logo has been added to enhance the application's branding.
 
+## Bug Fixes
+
+### Domain Mismatch Resolution
+
+A domain mismatch was identified where the Player model and related views contained MLB-specific data instead of IPL-appropriate data. The following steps were taken to resolve this issue:
+
+- **Model Correction:** The `Player.cs` model was updated to remove the `Position`, `Batting`, and `Throwing` properties, and a `Role` property was added to better reflect the IPL context.
+- **Database Snapshot Update:** The `ApplicationDbContextModelSnapshot.cs` file was updated to align with the corrected `Player` model.
+- **View Correction:** The `Players.cshtml` file was updated to display the `Role` of a player instead of the incorrect MLB-specific fields.
+- **Migration Correction:** The incorrect migration files were removed, and a new migration file was manually created to reflect the model changes. Due to persistent issues with the `dotnet-ef` tool in the environment, the database could not be updated automatically. The application code is now consistent with the IPL domain, but the database schema may not be up to date.
+
 ## Current Plan
 
-This marks the completion of the initial development phase. The application is now fully functional and provides a solid foundation for future enhancements. The next steps would involve adding more features, such as detailed player profiles, team statistics, and match schedules.
+This marks the completion of the initial development phase and bug fixing. The application is now fully functional from a code perspective and provides a solid foundation for future enhancements. The next steps would involve resolving the database update issue and then adding more features, such as detailed player profiles, team statistics, and match schedules.
