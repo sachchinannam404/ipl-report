@@ -1,24 +1,25 @@
 @page
 @model myapp.Pages.TeamsModel
+@{
+    ViewData["Title"] = "Teams";
+}
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Coach</th>
-            <th>City</th>
-            <th>Home Ground</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var team in Model.Teams)
-        {
-            <tr>
-                <td>@team.Name</td>
-                <td>@team.Coach</td>
-                <td>@team.City</td>
-                <td>@team.HomeGround</td>
-            </tr>
-        }
-    </tbody>
-</table>
+<div class="ant-row" style="margin: -12px;">
+    @foreach (var team in Model.Teams)
+    {
+        <div class="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-md-8" style="padding: 12px;">
+            <div class="ant-card">
+                <div class="ant-card-head">
+                    <div class="ant-card-head-wrapper">
+                        <div class="ant-card-head-title">@team.Name</div>
+                    </div>
+                </div>
+                <div class="ant-card-body">
+                    <p><strong>Coach:</strong> @team.Coach</p>
+                    <p><strong>City:</strong> @team.City</p>
+                    <p><strong>Home Ground:</strong> @team.HomeGround</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
