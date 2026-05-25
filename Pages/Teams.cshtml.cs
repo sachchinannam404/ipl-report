@@ -15,7 +15,7 @@ namespace myapp.Pages
             _context = context;
         }
 
-        public IList<Team>? Teams { get;set; }
+        public IList<Team> Teams { get;set; } = new List<Team>();
 
         public void OnGet()
         {
