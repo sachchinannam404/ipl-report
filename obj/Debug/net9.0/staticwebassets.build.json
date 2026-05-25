@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QoXa36b7G1JIkGRn5sb+G3cSOOIpGIlOccanw6ZkJ3c=",
+  "Hash": "Dwomts1cwS1DShhf36nSUqnhwZkM/S75Y4e7xOOx518=",
   "Source": "myapp",
   "BasePath": "_content/myapp",
   "Mode": "Default",
@@ -78,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/home/user/ipl-report/wwwroot/images/logo.png",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/ipl-report/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fi5z5hhahy",
+      "Integrity": "WWAKhHnIl1adT7r1ZCJWIpn+RL32e24ikLoCRskFJU8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/logo.png"
     },
     {
       "Identity": "/home/user/ipl-report/wwwroot/js/site.js",
@@ -397,6 +418,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-oVE7JPcGbR0rMxIYy5g6zml9AwFfGXFQd/XlPXVoCv8="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.fi5z5hhahy.png",
+      "AssetFile": "/home/user/ipl-report/wwwroot/images/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WWAKhHnIl1adT7r1ZCJWIpn+RL32e24ikLoCRskFJU8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 May 2026 17:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fi5z5hhahy"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WWAKhHnIl1adT7r1ZCJWIpn+RL32e24ikLoCRskFJU8="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.png",
+      "AssetFile": "/home/user/ipl-report/wwwroot/images/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WWAKhHnIl1adT7r1ZCJWIpn+RL32e24ikLoCRskFJU8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 May 2026 17:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WWAKhHnIl1adT7r1ZCJWIpn+RL32e24ikLoCRskFJU8="
         }
       ]
     },
