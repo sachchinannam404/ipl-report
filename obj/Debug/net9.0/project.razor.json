@@ -19481,6 +19481,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/user/ipl-report/Views/Ipl/Index.cshtml",
+      "TargetPath": "Views\\Ipl\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/user/ipl-report/Pages/Coaches.cshtml",
       "TargetPath": "Pages\\Coaches.cshtml",
       "FileKind": "mvc"

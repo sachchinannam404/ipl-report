@@ -55,3 +55,7 @@ build_metadata.AdditionalFiles.CssScope =
 [/home/user/ipl-report/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[/home/user/ipl-report/Views/Ipl/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXBsL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
