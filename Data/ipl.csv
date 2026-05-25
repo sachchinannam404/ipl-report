@@ -1,6 +1,1 @@
-{
-  "error": {
-    "code": 404,
-    "message": "Not Found."
-  }
-}
+season,team1,team2,toss_winner,toss_decision,winner,player_of_match,venue,city
