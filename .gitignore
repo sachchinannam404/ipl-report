@@ -100,3 +100,6 @@ wwwroot/
 
 # ML.NET
 /Model/
+
+# Ignore CSV files
+*.csv
