@@ -15,7 +15,7 @@ namespace myapp.Pages
             _context = context;
         }
 
-        public IList<Player> Players { get;set; }
+        public IList<Player>? Players { get;set; }
 
         public void OnGet()
         {
