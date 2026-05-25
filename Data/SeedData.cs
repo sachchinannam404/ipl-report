@@ -23,7 +23,7 @@ namespace myapp.Data
                     {
                         Name = "Shohei Ohtani",
                         Team = "Los Angeles Dodgers",
-                        Position = "Designated Hitter",
+                        Role = "Designated Hitter",
                         Batting = "Left",
                         Throwing = "Right"
                     },
@@ -31,7 +31,7 @@ namespace myapp.Data
                     {
                         Name = "Mookie Betts",
                         Team = "Los Angeles Dodgers",
-                        Position = "Shortstop",
+                        Role = "Shortstop",
                         Batting = "Right",
                         Throwing = "Right"
                     },
@@ -39,7 +39,7 @@ namespace myapp.Data
                     {
                         Name = "Freddie Freeman",
                         Team = "Los Angeles Dodgers",
-                        Position = "First Baseman",
+                        Role = "First Baseman",
                         Batting = "Left",
                         Throwing = "Right"
                     }
