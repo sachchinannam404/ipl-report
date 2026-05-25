@@ -1,30 +1,24 @@
-# Project Blueprint
+# IPL Report Application Blueprint
 
 ## Overview
 
-This document outlines the structure, design, and features of the IPL (Indian Premier League) Report application.
+This application provides a comprehensive overview of the Indian Premier League (IPL), featuring detailed information about players, teams, and coaches. The application is built using ASP.NET Core with Razor Pages and utilizes the Ant Design framework for a modern and responsive user interface.
+
+## Project Structure
+
+- **Pages:** Contains the Razor Pages for the application, including the home page, players, teams, and coaches.
+- **wwwroot:** Holds static assets such as CSS, JavaScript, and images.
+- **Data:** Includes the data models and database context for the application.
+- **Migrations:** Stores the Entity Framework Core migrations for database schema management.
 
 ## Implemented Features
 
-### Initial Setup
+- **Modern UI:** The application uses the Ant Design framework to create a clean, professional, and responsive user interface.
+- **Data Display:** Information about players, teams, and coaches is presented in a structured and organized manner using Ant Design tables and cards.
+- **Navigation:** A clear and intuitive navigation menu with icons allows users to easily switch between different sections of the application.
+- **Home Page Dashboard:** The home page provides a quick overview of the total number of players, teams, and coaches, with visually engaging cards and icons.
+- **Logo:** A custom logo has been added to enhance the application's branding.
 
-*   **Project Initialization:** A .NET Razor Pages application was created.
-*   **Data Models:** The initial data models for `Team`, `Player`, and `Coach` were defined.
-*   **Database:** An in-memory database was seeded with initial data.
-*   **Basic UI:** A basic user interface was created to display the data.
-*   **Code Cleanup:** The project was updated to use modern C# features, and code quality was improved by resolving warnings.
+## Current Plan
 
-### UI Improvement
-
-*   **Modern Design:** The application has a modern and professional design with a consistent theme.
-*   **Enhanced Home Page:** The home page provides a quick overview of the available data.
-*   **Improved Data Presentation:** Data on the detail pages is presented in a more structured and visually appealing format.
-
-## Current Change: UI Improvement with Ant Design
-
-The current goal is to enhance the application's user interface by integrating the Ant Design (Ant UI) framework. This will involve the following steps:
-
-1.  **Integrate Ant Design:** Add the Ant Design CSS and JavaScript files to the project.
-2.  **Update Layout:** Modify the main layout to use Ant Design's grid system and components for a more modern and responsive design.
-3.  **Redesign Pages:** Update the individual pages (`Index`, `Coaches`, `Players`, `Teams`) to use Ant Design components such as tables, cards, and buttons.
-4.  **Enhance Visuals:** Improve the overall visual appeal of the application by using a consistent color scheme, typography, and spacing based on Ant Design's principles.
+This marks the completion of the initial development phase. The application is now fully functional and provides a solid foundation for future enhancements. The next steps would involve adding more features, such as detailed player profiles, team statistics, and match schedules.

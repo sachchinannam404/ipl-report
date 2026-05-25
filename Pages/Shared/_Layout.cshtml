@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - IPL Report</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/4.17.2/antd.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ant-design-icons/4.7.0/antd-icons.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body class="ant-layout-has-sider">
@@ -17,13 +18,13 @@
             </div>
             <ul class="ant-menu ant-menu-dark ant-menu-root ant-menu-inline" style="background: #001529;">
                 <li class="ant-menu-item">
-                    <a class="nav-link" asp-area="" asp-page="/Players">Players</a>
+                    <a class="nav-link" asp-area="" asp-page="/Players"><span class="anticon anticon-user"></span><span class="nav-text">Players</span></a>
                 </li>
                 <li class="ant-menu-item">
-                    <a class="nav-link" asp-area="" asp-page="/Teams">Teams</a>
+                    <a class="nav-link" asp-area="" asp-page="/Teams"><span class="anticon anticon-team"></span><span class="nav-text">Teams</span></a>
                 </li>
                 <li class="ant-menu-item">
-                    <a class="nav-link" asp-area="" asp-page="/Coaches">Coaches</a>
+                    <a class="nav-link" asp-area="" asp-page="/Coaches"><span class="anticon anticon-crown"></span><span class="nav-text">Coaches</span></a>
                 </li>
             </ul>
         </div>
