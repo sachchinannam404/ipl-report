@@ -5,10 +5,7 @@ namespace myapp.Models
     {
         public int Id { get; set; }
         public string? Name { get; set; }
-        public int TeamId { get; set; }
-        public Team? Team { get; set; }
-        public string? Position { get; set; }
-        public string? Batting { get; set; }
-        public string? Throwing { get; set; }
+        public string? Team { get; set; }
+        public string? Role { get; set; }
     }
 }
