@@ -1,26 +1,37 @@
 @page
 @model myapp.Pages.PlayersModel
+@{
+    ViewData["Title"] = "Players";
+}
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Team</th>
-            <th>Position</th>
-            <th>Batting</th>
-            <th>Throwing</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var player in Model.Players)
-        {
-            <tr>
-                <td>@player.Name</td>
-                <td>@player.Team</td>
-                <td>@player.Position</td>
-                <td>@player.Batting</td>
-                <td>@player.Throwing</td>
-            </tr>
-        }
-    </tbody>
-</table>
+<div class="ant-table-wrapper">
+    <div class="ant-table">
+        <div class="ant-table-container">
+            <div class="ant-table-content">
+                <table style="table-layout: auto;">
+                    <thead class="ant-table-thead">
+                        <tr>
+                            <th class="ant-table-cell">Name</th>
+                            <th class="ant-table-cell">Team</th>
+                            <th class="ant-table-cell">Position</th>
+                            <th class="ant-table-cell">Batting</th>
+                            <th class="ant-table-cell">Throwing</th>
+                        </tr>
+                    </thead>
+                    <tbody class="ant-table-tbody">
+                        @foreach (var player in Model.Players)
+                        {
+                            <tr class="ant-table-row ant-table-row-level-0">
+                                <td class="ant-table-cell">@player.Name</td>
+                                <td class="ant-table-cell">@player.Team</td>
+                                <td class="ant-table-cell">@player.Position</td>
+                                <td class="ant-table-cell">@player.Batting</td>
+                                <td class="ant-table-cell">@player.Throwing</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
