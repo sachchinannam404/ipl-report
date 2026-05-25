@@ -15,7 +15,7 @@ namespace myapp.Pages
             _context = context;
         }
 
-        public IList<Coach> Coaches { get;set; }
+        public IList<Coach>? Coaches { get;set; }
 
         public void OnGet()
         {
