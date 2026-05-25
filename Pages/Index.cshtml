@@ -1,4 +1,3 @@
-
 @page
 @model IndexModel
 @{ ViewData["Title"] = "Home page";
@@ -7,4 +6,31 @@
 <div class="text-center">
     <h1 class="display-4">Welcome to the IPL Report</h1>
     <p>Select a category to view the information.</p>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-header">Players</div>
+                <div class="card-body">
+                    <h5 class="card-title">@Model.PlayerCount</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-success mb-3">
+                <div class="card-header">Teams</div>
+                <div class="card-body">
+                    <h5 class="card-title">@Model.TeamCount</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-info mb-3">
+                <div class="card-header">Coaches</div>
+                <div class="card-body">
+                    <h5 class="card-title">@Model.CoachCount</h5>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

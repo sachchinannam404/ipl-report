@@ -29,3 +29,4 @@
 /home/user/ipl-report/obj/Debug/net9.0/myapp.csproj.AssemblyReference.cache
 /home/user/ipl-report/obj/Debug/net9.0/myapp.RazorAssemblyInfo.cache
 /home/user/ipl-report/obj/Debug/net9.0/myapp.RazorAssemblyInfo.cs
+/home/user/ipl-report/obj/Debug/net9.0/myapp.sourcelink.json
