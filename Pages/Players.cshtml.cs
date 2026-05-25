@@ -1,22 +1,25 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using myapp.Data;
 using myapp.Models;
+using System.Collections.Generic;
+using System.Linq;
 
-namespace myapp.Pages;
-
-public class PlayersModel : PageModel
+namespace myapp.Pages
 {
-    private readonly ApplicationDbContext _context;
-
-    public PlayersModel(ApplicationDbContext context)
+    public class PlayersModel : PageModel
     {
-        _context = context;
-    }
+        private readonly ApplicationDbContext _context;
 
-    public IList<Player> Players { get; set; } = new List<Player>();
+        public PlayersModel(ApplicationDbContext context)
+        {
+            _context = context;
+        }
 
-    public void OnGet()
-    {
-        Players = _context.Players.ToList();
+        public IList<Player> Players { get;set; }
+
+        public void OnGet()
+        {
+            Players = _context.Players.ToList();
+        }
     }
 }

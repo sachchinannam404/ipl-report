@@ -1,4 +1,3 @@
-
 namespace myapp.Models
 {
     public class Coach
