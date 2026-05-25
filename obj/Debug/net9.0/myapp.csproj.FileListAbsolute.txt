@@ -30,3 +30,11 @@
 /home/user/ipl-report/obj/Debug/net9.0/myapp.RazorAssemblyInfo.cache
 /home/user/ipl-report/obj/Debug/net9.0/myapp.RazorAssemblyInfo.cs
 /home/user/ipl-report/obj/Debug/net9.0/myapp.sourcelink.json
+/home/user/ipl-report/bin/Debug/net9.0/libman.json
+/home/user/ipl-report/bin/Debug/net9.0/myapp.staticwebassets.runtime.json
+/home/user/ipl-report/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/home/user/ipl-report/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/user/ipl-report/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/home/user/ipl-report/obj/Debug/net9.0/compressed/srsdvfsejk-rywpdhx8ma.gz
+/home/user/ipl-report/obj/Debug/net9.0/compressed/hwnt904nd6-s5p3y0036b.gz
+/home/user/ipl-report/obj/Debug/net9.0/myapp.csproj.Up2Date
