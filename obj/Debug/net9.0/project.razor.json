@@ -19466,6 +19466,11 @@
   "RootNamespace": "myapp",
   "Documents": [
     {
+      "FilePath": "/home/user/ipl-report/Pages/Winners.cshtml",
+      "TargetPath": "Pages\\Winners.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/user/ipl-report/Pages/Teams.cshtml",
       "TargetPath": "Pages\\Teams.cshtml",
       "FileKind": "mvc"
