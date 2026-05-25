@@ -7,42 +7,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/4.17.2/antd.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">IPL Report</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Players">Players</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Teams">Teams</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Coaches">Coaches</a>
-                        </li>
-                    </ul>
-                </div>
+<body class="ant-layout-has-sider">
+    <div class="ant-layout">
+        <div class="ant-layout-sider" style="background: #001529;">
+            <div class="logo" style="padding: 10px; text-align: center;">
+                <a asp-page="/Index">
+                    <img src="/images/logo.png" alt="IPL Report" style="height: 40px;" />
+                </a>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted bg-dark">
-        <div class="container">
-            &copy; 2024 - IPL Report
+            <ul class="ant-menu ant-menu-dark ant-menu-root ant-menu-inline" style="background: #001529;">
+                <li class="ant-menu-item">
+                    <a class="nav-link" asp-area="" asp-page="/Players">Players</a>
+                </li>
+                <li class="ant-menu-item">
+                    <a class="nav-link" asp-area="" asp-page="/Teams">Teams</a>
+                </li>
+                <li class="ant-menu-item">
+                    <a class="nav-link" asp-area="" asp-page="/Coaches">Coaches</a>
+                </li>
+            </ul>
         </div>
-    </footer>
+        <div class="ant-layout" style="background: #f0f2f5;">
+            <div class="ant-layout-header" style="background: #fff; padding: 0 24px;">
+                <h1 style="font-size: 24px; color: #001529;">@ViewData["Title"]</h1>
+            </div>
+            <div class="ant-layout-content" style="padding: 24px;">
+                @RenderBody()
+            </div>
+            <div class="ant-layout-footer" style="text-align: center; background: #f0f2f5;">
+                &copy; 2024 - IPL Report
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/antd/4.17.2/antd.min.js"></script>
 
