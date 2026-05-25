@@ -1,26 +1,30 @@
-# IPL Report Application
+# Project Blueprint
 
-## Purpose and Capabilities
+## Overview
 
-The IPL Report application is a web-based tool for viewing information about the Indian Premier League (IPL). It provides a user-friendly interface to access data about players, teams, and coaches. The application now features an improved UI with a modern design, making it easier for users to navigate and consume the information.
+This document outlines the structure, design, and features of the IPL (Indian Premier League) Report application.
 
-## Style, Design, and Features
+## Implemented Features
 
-### Current Version
+### Initial Setup
 
-*   **Home Page:** The home page now displays key statistics, including the total number of players, teams, and coaches, in a visually appealing card-based layout.
-*   **Data Pages:** The pages for players, teams, and coaches have been updated to present data in a well-organized and styled table, improving readability and user experience.
-*   **Navigation:** The application features a dark-themed navigation bar and footer, providing a consistent and modern look and feel.
-*   **Styling:** The overall styling has been enhanced with custom CSS to ensure a professional and polished appearance.
+*   **Project Initialization:** A .NET Razor Pages application was created.
+*   **Data Models:** The initial data models for `Team`, `Player`, and `Coach` were defined.
+*   **Database:** An in-memory database was seeded with initial data.
+*   **Basic UI:** A basic user interface was created to display the data.
+*   **Code Cleanup:** The project was updated to use modern C# features, and code quality was improved by resolving warnings.
 
-### Initial Version
+### UI Improvement
 
-*   **Basic Functionality:** The initial version of the application provided basic pages to display lists of players, teams, and coaches without any specific styling or UI enhancements.
+*   **Modern Design:** The application has a modern and professional design with a consistent theme.
+*   **Enhanced Home Page:** The home page provides a quick overview of the available data.
+*   **Improved Data Presentation:** Data on the detail pages is presented in a more structured and visually appealing format.
 
-## Current Change: UI Improvement
+## Current Change: UI Improvement with Ant Design
 
-The most recent update focused on significantly improving the user interface and user experience of the application. The key changes include:
+The current goal is to enhance the application's user interface by integrating the Ant Design (Ant UI) framework. This will involve the following steps:
 
-*   **Enhanced Home Page:** The home page was redesigned to provide a quick overview of the available data.
-*   **Improved Data Presentation:** The data on the detail pages is now presented in a more structured and visually appealing format.
-*   **Modern Styling:** The application now has a more modern and professional design, with a consistent theme across all pages.
+1.  **Integrate Ant Design:** Add the Ant Design CSS and JavaScript files to the project.
+2.  **Update Layout:** Modify the main layout to use Ant Design's grid system and components for a more modern and responsive design.
+3.  **Redesign Pages:** Update the individual pages (`Index`, `Coaches`, `Players`, `Teams`) to use Ant Design components such as tables, cards, and buttons.
+4.  **Enhance Visuals:** Improve the overall visual appeal of the application by using a consistent color scheme, typography, and spacing based on Ant Design's principles.
